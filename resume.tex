@@ -1,0 +1,290 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\input{glyphtounicode}
+
+% \documentclass[letterpaper,11pt]{article}
+
+% \usepackage{newtxtext}
+% \usepackage{newtxmath}
+
+% \usepackage[empty]{fullpage}
+% \usepackage{titlesec}
+% \usepackage{marvosym}
+% \usepackage[usenames,dvipsnames]{color}
+% \usepackage{verbatim}
+% \usepackage{enumitem}
+% \usepackage[hidelinks]{hyperref}
+% \usepackage{fancyhdr}
+% \usepackage[english]{babel}
+% \usepackage{tabularx}
+% \usepackage{hyperref}
+% \input{glyphtounicode}
+
+% ----------FONT OPTIONS----------
+% sans-serif
+\usepackage[sfdefault]{FiraSans}
+\usepackage[sfdefault]{roboto}
+\usepackage[sfdefault]{noto-sans}
+\usepackage[default]{sourcesanspro}
+
+% serif
+\usepackage{CormorantGaramond}
+\usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+  \textbf{\Huge \scshape Ahmad } \\ \vspace{1pt}
+  \small +92-3020511167 $|$
+  \href{mailto:ahmadjajja86@gmail.com}{\underline{ahmadjajja86@gmail.com}} $|$
+  \href{https://www.linkedin.com/in/ahmad-jajja/}{\underline{linkedin.com/in/ahmad-jajja}} $|$
+  \href{https://github.com/Ahmadjajja}{\underline{gitub.com/Ahmadjajja}} $|$
+  \href{https://linktr.ee/Ahmadjajja}{\underline{linktr.ee/Ahmadjajja}}
+  % \href{https://leetcode.com/ahmadjajja86/}{\underline{leetcode}} $|$
+  % \href{https://ahmad-jajja.netlify.app/}{\underline{website}}
+  % \textbf{\Huge \scshape Ahmad Jajja} \\ \vspace{1pt}
+  % \footnotesize +92-3020511167 $|$ 
+  % \href{mailto:ahmadjajja86@gmail.com}{\underline{ahmadjajja86@gmail.com}} $|$ 
+  % \href{https://www.linkedin.com/in/ahmad-jajja-ba8b34210/}{\underline{linkedin.com/in/ahmad-jajja}} $|$
+  % \href{https://github.com/Ahmadjajja}{\underline{github.com/Ahmadjajja}} $|$
+  % \href{https://leetcode.com/ahmadjajja86/}{\underline{leetcode.com/ahmadjajja86}}
+\end{center}
+
+%-----------1 - EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{The University of Agriculture \hspace{3.5cm} CGPA: 3.00 / 4.00}{Faisalabad,PK}
+% {CGPA: 3.90 / 4.00}{}
+{Bachelor of Science in Computer Science}{Sep. 2020 -- June 2024}
+\resumeItemListStart
+\resumeItem{Relevant Coursework: Design and Analysis of Algorithms, Data Structures and Algorithms, Programming Fundamentals, Object-Oriented Programming, Web Development, Artificial Intelligence, Databases, Visual Programming, Mathematics (Linear Algebra, Derivatives, and Integration), Statistics, Cloud Computing, Internet of Things.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+%
+
+%-----------2 - Hackathons & Competitions-----------
+\section{Hackathons and Competitions}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\href{https://github.com/Louvivien/AIpodcastgenerator}{\underline{AI Podcast Generator}}} $|$ \emph{HTML, CSS, Bootstrap5, Javascript, React, Generative AI, Langchain, python}}{}
+\resumeItemListStart
+\resumeItem{Worked with a team of six individuals from the USA, Chile, France, and Pakistan in an international hackathon, collaborating on the AI Podcaster Generator Project.}
+\resumeItem{This project transforms written content into captivating, lifelike podcasts effortlessly using ElevenLabs API-powered speech synthesis.}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://shorturl.at/kHNZ2}{\underline{Meta Hackar Cup'23 Qualifier}}}}{}
+\resumeItemListStart
+\resumeItem{I participated in the Meta Hacker Cup during the practice round, successfully solving 4 out of 5 problems, and qualified for the first round. I secured the 22nd position in Pakistan.}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://shorturl.at/myRTX}{\underline{Google Code Jam'23 Qualifier}}}}{}
+\resumeItemListStart
+\resumeItem{I participated in the Google Code Jam coding competition organized by Google and learned a lot from this coding competition, successfully solving 2 out of 4 questions.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+%
+
+
+%-----------3 - PERSONAL PROJECTS-----------
+\section{Personal Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\href{https://github.com/Ahmadjajja/React_Bank}{\underline{Full Stack Bank WEB APP}}} $|$ \emph{HTML, CSS, Bootstrap5, Javascript, React, Context API, Firebase, Firestore}}{}
+\resumeItemListStart
+\resumeItem{Bank-App is a web application allowing users to manage accounts, perform
+  transactions, and view transaction history conveniently.}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/Ahmadjajja/Social_Real_Estate_System_Mobile_App_Frontend}{\underline{Full Stack Real Estate Mobile App}}} $|$ \emph{Javascript, ReactNative, Redux, ContextAPI, NodeJS,
+    ExpressJS, MongoDB}}{}
+\resumeItemListStart
+\resumeItem{Real-Estate Mobile App with authentication, dashboard, property
+  management, searching, browsing and call-to-action feature for property
+  tansactions, powered by REST APIs using Node JS.}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/Ahmadjajja/E_Commerce_Mobile_App_Frontend}{\underline{Full Stack E-Commerce Mobile App}}} $|$ \emph{Javascript, ReactNative, Redux, ContextAPI, NodeJS,
+    ExpressJS, MongoDB}}{}
+\resumeItemListStart
+\resumeItem{E-commerce mobile app with user registration, product catalog, cart, wishlist,
+  checkout, payment, order tracking, and admin dashboard.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+%
+
+%-----------4 - EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{MERN Stack Trainer}{Dec 2022 -- Present}
+{Saylani Mass IT Training Program}{Faisalabad, PK}
+\resumeItemListStart
+\resumeItem{My role involves delivering {\href{https://www.linkedin.com/posts/ahmad-jajja-ba8b34210_webdevelopment-learningtogether-activity-7094647856233365504-rAtx?utm_source=share&utm_medium=member_desktop}{\underline{sessions}}} on HTML5, CSS3, Bootstrap5, Javascript, Typescript, ReactJS, ReactNative, Redux, ContextAPI, NodeJS,
+  ExpressJS, MongoDb, Firebase, Firestore, Git, Github, Heroku, Netlify, Surge}
+% \resumeItem{Instructed nearly 200 students.}
+% \resumeItem{My role involves delivering comprehensive training sessions on theMERN stack}
+% \resumeItem{Providing instructions in various hosting and version control platforms}
+\resumeItemListEnd
+\resumeSubheading
+{MERN Stack Developer}{Sep 2022 - Mar 2023}
+{ZW Tech}{Faisalabad, PK}
+\resumeItemListStart
+\resumeItem{Modified React JS front-end for UAE recruitment business website, resembling LinkedIn.}
+\resumeItem{Developed Node.js-based GraphQL APIs, enhancing data management and integration
+  for Dashboard.}
+\resumeItem{Led the Desgning team and collaborated with product managers, business partners, and
+  engineers to help define product requirements and roadmap .}
+\resumeItemListEnd
+
+\resumeSubheading
+{MERN Stack Developer}{May 2022 - Aug 2022}
+{Seeraht}{Faisalabad, PK}
+\resumeItemListStart
+\resumeItem{Developed and maintained MERN web apps at Seeraht, prioritizing quality, scalability, and
+  efficiency.}
+\resumeItem{Collaborated with cross-functional teams, implementing complex software features
+  using modern development techniques.}
+\resumeItem{Experience in integrating web applications with third-party APIs and services.}
+%         \resumeItem{Performed code reviews, troubleshooted code issues, and actively participated in the
+
+%
+% software development lifecycle. Utilized MERN stack, Agile practices, and effective
+% communication for transformative web applications.}
+\resumeItemListEnd
+% \resumeSubheading
+% {MERN Stack Developer}{Nov 2021 - Present}
+% {Fb and local Clients}{Faisalabad, PK}
+% \resumeItemListStart
+%   \resumeItem{
+%     Developed and delivered a wide range of web-based solutions, utilizing front-end technologies such as HTML, CSS, and JavaScript, as well as back-end technologies such as Node.js and Express js.}
+%   \resumeItem{
+%     Built and maintained strong relationships with clients through effective communication and problem-solving skills, ensuring timely completion and adherence to project requirements.}
+%   \resumeItem{Accomplished in utilizing version control systems such as Git and SVN, and implementing agile methodologies for efficient project management.}
+%   \resumeItem{Proven ability to work independently as well as part of a team, successfully delivering projects on time and within budget.}
+%   \resumeItem{
+%     Experience in integrating web applications with third-party APIs and services.}
+% \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------5 - PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Languages}{: JavaScript (ES6+), Typescript, Java, C, C++, Dart, Python } \\
+        \textbf{Frontend}{: HTML5, CSS3, SCSS, Chakra-UI, Ant-Design, Bootstrap-5, React-JS, React-Native, ContextAPI, Redux} \\
+        \textbf{Backend}{: Node-JS, Express-JS, Firebase} \\
+        \textbf{Version Control}{: Git, Github} \\
+        \textbf{APIs}{: Rest-APIs, GraphQL} \\
+        \textbf{Databases}{: MongoDB, Firestore}\\
+        }}
+\end{itemize}
+%
+
+%-----------6 - ACHIEVEMENTS-----------
+\section{Achievements}
+% \resumeSubHeadingListStart
+\resumeItemListStart
+\resumeItem{Solved over 200 Data Structures and Algorithms problems on {\href{https://leetcode.com/ahmadjajja86/}{\underline{leetcode}}}.}
+\resumeItem{I {\href{https://www.linkedin.com/posts/ahmad-jajja-ba8b34210_webdevelopment-learningtogether-activity-7094647856233365504-rAtx?utm_source=share&utm_medium=member_desktop}{\underline{trained}}} over 300 students at the Saylani Mass IT Training Program in Web Development.}
+% \resumeItem{Completed one year Web and Mobile App Development Bootcamp from
+%     {\href{https://drive.google.com/file/d/1HAMbxoTU0kpSDj8k-YFjYE14ngWeisZ1/view}{\underline{Saylani Mass IT Training Programs(SMIT).}}}}
+\resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
