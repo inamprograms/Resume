@@ -1,6 +1,6 @@
-PWD D:\Git Hub Repos\updated_resume-main
+PWD D:\Git Hub Repos\Resume
 INPUT C:\Users\Dell\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Git Hub Repos\updated_resume-main\resume.tex
+INPUT d:\Git Hub Repos\Resume\resume.tex
 OUTPUT resume.log
 INPUT C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Dell\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
