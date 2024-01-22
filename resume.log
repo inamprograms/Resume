@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.30)  10 OCT 2023 11:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.30)  22 JAN 2024 21:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -566,10 +566,14 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
 (Font)              scaled to size 6.0pt on input line 175.
 
-Overfull \hbox (27.79945pt too wide) in alignment at lines 212--212
+Overfull \hbox (27.79945pt too wide) in alignment at lines 224--224
 [] [] 
  []
 
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 251.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 251.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -592,17 +596,17 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 0906529E68350F55BD227E7DBC08E179;725.
  ) 
 Here is how much of TeX's memory you used:
- 13571 strings out of 475247
- 242892 string characters out of 5758264
- 1951785 words of memory out of 5000000
- 34868 multiletter control sequences out of 15000+600000
- 674194 words of font info for 76 fonts, out of 8000000 for 9000
+ 13573 strings out of 475247
+ 242952 string characters out of 5758264
+ 1954785 words of memory out of 5000000
+ 34870 multiletter control sequences out of 15000+600000
+ 683564 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,426b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,508b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Dell/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on resume.pdf (2 pages, 210799 bytes).
+Output written on resume.pdf (2 pages, 212295 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
